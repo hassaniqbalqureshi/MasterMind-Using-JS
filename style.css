@@ -1,0 +1,79 @@
+.fullBoard{
+    
+    background-color: white;
+    
+    height: 805px;
+    width: 400px;
+    position: absolute;
+}
+
+.board{
+    display: grid;
+    width: 290px;
+    height: 100%;
+    float: left;
+    
+}
+
+.M{background-color: yellow;}
+.A{background-color: PINK;}
+.S{background-color: green;}
+.T{background-color: teal;}
+.E{background-color: skyblue;}
+.R{background-color: purple;}
+.pegs{
+    display:grid;
+    height: 100%;
+    width: 20%;
+    float: right;
+    margin-top: 0px;
+  
+}
+
+.colorBoard{
+    display: grid;
+    grid-template-columns: repeat(1, 50px);
+    grid-template-rows: repeat(3, 50px);
+    width: 100px;
+    height: 300px;
+    border: 5px light grey;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.currentColor{
+    
+}
+
+.code{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(1, 50px);
+    width: 200px;
+    height: 50px;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.secretColor{
+    background-color: transparent;
+}
+
+.submit{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    
+    background-color: light gray;
+    
+}
+
+.other{
+    margin-left: 150px;
+}
